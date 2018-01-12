@@ -9,15 +9,17 @@ http://codeup.cn/problemset.php
 加题目链接的题为较难题
 ### 三、入门模拟
 ##### 3.1 简单模拟
-1002	A+B for Polynomials (25)      1042	Shuffling Machine (20)              
-1046	Shortest Distance (20)      1065	A+B and C (64bit) (20)      
-1009	Product of Polynomials (25)           
+1002	A+B for Polynomials (25)     
+1042	Shuffling Machine (20)               
+1046	Shortest Distance (20)     
+1065	A+B and C (64bit) (20)           
+1009	Product of Polynomials (25)                         
 ##### 3.2 查找元素    
 1006	Sign In and Sign Out (25)	     
 1011	World Cup Betting (20)      
 1036	Boys vs Girls (25)      
 ##### 3.3 图形输出
-1031	Hello World for U (20)    
+1031	Hello World for U (20)      
 ##### 3.4 日期处理   
 ##### 3.5 进制转换
 1019	General Palindromic Number (20)     
@@ -29,7 +31,7 @@ http://codeup.cn/problemset.php
 1035	Password (20)	     
 1061	Dating (20)     
 1073	Scientific Notation (20)    
-[1077  Kuchiguse (20)](https://www.patest.cn/contests/pat-a-practise/1077)           
+[1077  Kuchiguse (20)](https://www.patest.cn/contests/pat-a-practise/1077)                       
 [1082	Read Number in Chinese (25)](https://www.patest.cn/contests/pat-a-practise/1082)   
 ### 四、算法初步
 ##### 4.1 排序
@@ -53,8 +55,8 @@ http://codeup.cn/problemset.php
 ##### 4.4 贪心
 1033	To Fill or Not to Fill (25)               
 1037	Magic Coupon (25)                  
-1038	Recover the Smallest Number (30)                 
-1067	Sort with Swap(0,❤) (25)                       
+1038	Recover the Smallest Number (30)                  
+1067	Sort with Swap(0,❤) (25)                                   
 1070	Mooncake (25)                
 ##### 4.5 二分
 1010	Radix (25)    
@@ -76,7 +78,7 @@ http://codeup.cn/problemset.php
 1069	The Black Hole of Numbers (20)        
 1104	Sum of Number Segments (20)    
 ##### 5.2 gcd
-1008  数组元素循环右移问题 (20)     
+1008  数组元素循环右移问题 (20)        
 ##### 5.3 分数的四则运算
 1081	Rational Sum (20)	     
 1088	Rational Arithmetic (20)     
@@ -153,7 +155,8 @@ http://codeup.cn/problemset.php
 1018	Public Bike Management (30)       
 1030	Travel Plan (30)       
 1072	Gas Station (30)        
-1087	All Roads Lead to Rome (30)       
+1087	All Roads Lead to Rome (30)         
+1111	Online Map (30)     
 ##### 10.5 最小生成树
 ##### 10.6 拓扑排序
 ##### 10.7 关键路径
