@@ -1,39 +1,40 @@
-# PAT_Advanced
-https://www.patest.cn/contests/pat-a-practise   
-PAT甲级、算法练习
+## PAT_Advanced And Algorithm
+来源：
+https://www.patest.cn/contests/pat-a-practise    
+https://www.logn.me/problem/list    
+http://codeup.cn/problemset.php    
 
-# 题型分类
-www.patest.cn/contests/pat-a-practise/1001 后四位数即题目ID   
+### 题型分类
+主要是PAT甲级：www.patest.cn/contests/pat-a-practise/1001 后四位数即题目ID      
 加题目链接的题为较难题
-
-### 三、入门模拟
+#### 三、入门模拟
 ##### 3.1 简单模拟
-1002	A+B for Polynomials (25)     
-1042	Shuffling Machine (20)      
-1046	Shortest Distance (20)    
-1065	A+B and C (64bit) (20)     
-1009	Product of Polynomials (25)        
-##### 3.2 查找元素
-1006	Sign In and Sign Out (25)	
-1011	World Cup Betting (20)
-1036	Boys vs Girls (25)
+1002	A+B for Polynomials (25)       
+1042	Shuffling Machine (20)        
+1046	Shortest Distance (20)      
+1065	A+B and C (64bit) (20)      
+1009	Product of Polynomials (25)           
+##### 3.2 查找元素    
+1006	Sign In and Sign Out (25)	     
+1011	World Cup Betting (20)      
+1036	Boys vs Girls (25)      
 ##### 3.3 图形输出
-1031	Hello World for U (20)
-##### 3.4 日期处理
+1031	Hello World for U (20)    
+##### 3.4 日期处理   
 
 ##### 3.5 进制转换
-1019	General Palindromic Number (20)
-1027	Colors in Mars (20)
-1058	A+B in Hogwarts (20)
+1019	General Palindromic Number (20)     
+1027	Colors in Mars (20)      
+1058	A+B in Hogwarts (20)      
 
 ##### 3.6 字符串处理
-1001	A+B Format (20)
-1005	Spell It Right (20)	
-1035	Password (20)	
-1061	Dating (20)
-1073	Scientific Notation (20)
-1077	[Kuchiguse (20)] (www.patest.cn/contests/pat-a-practise/1077)      
-1082	[Read Number in Chinese (25)] (www.patest.cn/contests/pat-a-practise/1082) 
+1001	A+B Format (20)    
+1005	Spell It Right (20)	     
+1035	Password (20)	     
+1061	Dating (20)     
+1073	Scientific Notation (20)    
+1077  [Kuchiguse (20)](www.patest.cn/contests/pat-a-practise/1077)           
+1082	[Read Number in Chinese (25)](www.patest.cn/contests/pat-a-practise/1082)   
 
 
 1008	Elevator (20)
