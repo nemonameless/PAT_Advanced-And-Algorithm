@@ -31,7 +31,7 @@ http://codeup.cn/problemset.php
 1061	Dating (20)     
 1073	Scientific Notation (20)
 <br/>[1077  Kuchiguse (20)](https://www.patest.cn/contests/pat-a-practise/1077)</br>
-<br/>[1082	Read Number in Chinese (25)](https://www.patest.cn/contests/pat-a-practise/1082)</br>
+[1082	Read Number in Chinese (25)](https://www.patest.cn/contests/pat-a-practise/1082)
 ### 四、算法初步
 ##### 4.1 排序
 1012	The Best Rank (25)
