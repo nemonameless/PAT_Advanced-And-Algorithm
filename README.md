@@ -3,7 +3,6 @@
 https://www.patest.cn/contests/pat-a-practise    
 https://www.logn.me/problem/list    
 http://codeup.cn/problemset.php    
-
 ### 题型分类
 主要是PAT甲级：www.patest.cn/contests/pat-a-practise/1001 后四位数即题目ID      
 加题目链接的题为较难题
@@ -30,13 +29,13 @@ http://codeup.cn/problemset.php
 1005	Spell It Right (20)	     
 1035	Password (20)	     
 1061	Dating (20)     
-1073	Scientific Notation (20)    
-<br/>[1077  Kuchiguse (20)](https://www.patest.cn/contests/pat-a-practise/1077)</br>  
-<br/>[1082	Read Number in Chinese (25)](https://www.patest.cn/contests/pat-a-practise/1082)</br>  
+1073	Scientific Notation (20)
+<br/>[1077  Kuchiguse (20)](https://www.patest.cn/contests/pat-a-practise/1077)</br>
+<br/>[1082	Read Number in Chinese (25)](https://www.patest.cn/contests/pat-a-practise/1082)</br>
 ### 四、算法初步
 ##### 4.1 排序
-1012	The Best Rank (25)     
-<br/>[1016	Phone Bills (25)](https://www.patest.cn/contests/pat-a-practise/1016)<br/>  
+1012	The Best Rank (25)
+<br/>[1016	Phone Bills (25)](https://www.patest.cn/contests/pat-a-practise/1016)<br/>
 1025	PAT Ranking (25)                 
 1028	List Sorting (25)                   
 1055	The World's Richest (25)               
