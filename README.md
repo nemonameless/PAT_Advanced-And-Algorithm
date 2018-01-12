@@ -55,7 +55,7 @@ http://codeup.cn/problemset.php
 1033	To Fill or Not to Fill (25)               
 1037	Magic Coupon (25)                  
 1038	Recover the Smallest Number (30)                  
-1067	Sort with Swap(0,❤) (25)                                   
+1067	Sort with Swap(0,❤) (25)                                                          
 1070	Mooncake (25)                
 ##### 4.5 二分
 1010	Radix (25)    
@@ -139,7 +139,9 @@ http://codeup.cn/problemset.php
 ##### 9.5 平衡二叉树AVL
 1066	Root of AVL Tree (25)    
 ##### 9.6 并查集
-1107	Social Clusters (30)     
+1107	Social Clusters (30)         
+1114	Family Property (25)           
+1118	Birds in Forest (25)       
 ##### 9.7 堆
 1098	Insertion or Heap Sort (25)    
 ##### 9.8 哈弗曼树
