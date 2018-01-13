@@ -1,0 +1,100 @@
+题目1456：胜利大逃亡
+时间限制：1 秒内存限制：128 兆特殊判题：否提交：4641解决：1694
+题目描述：
+Ignatius被魔王抓走了,有一天魔王出差去了,这可是Ignatius逃亡的好机会.魔王住在一个城堡里,城堡是一个A*B*C的立方体,可以被表示成A个B*C的矩阵,刚开始Ignatius被关在(0,0,0)的位置,离开城堡的门在(A-1,B-1,C-1)的位置,现在知道魔王将在T分钟后回到城堡,Ignatius每分钟能从一个坐标走到相邻的六个坐标中的其中一个.现在给你城堡的地图,请你计算出Ignatius能否在魔王回来前离开城堡(只要走到出口就算离开城堡,如果走到出口的时候魔王刚好回来也算逃亡成功),如果可以请输出需要多少分钟才能离开,如果不能则输出-1.
+输入：
+输入数据的第一行是一个正整数K,表明测试数据的数量.每组测试数据的第一行是四个正整数A,B,C和T(1<=A,B,C<=50,1<=T<=1000),它们分别代表城堡的大小和魔王回来的时间.然后是A块输入数据(先是第0块,然后是第1块,第2块......),每块输入数据有B行,每行有C个正整数,代表迷宫的布局,其中0代表路,1代表墙。
+输出：
+对于每组测试数据,如果Ignatius能够在魔王回来前离开城堡,那么请输出他最少需要多少分钟,否则输出-1.
+样例输入：
+1
+3 3 4 20
+0 1 1 1
+0 0 1 1
+0 1 1 1
+1 1 1 1
+1 0 0 1
+0 1 1 1
+0 0 0 0
+0 1 1 0
+0 1 1 0 
+样例输出：
+11
+
+#include<cstdio>
+#include<iostream>
+#include<cstring>
+#include<string>
+#include<cmath>
+#include<cctype>
+#include<algorithm>
+#include<vector>
+#include<set>
+#include<map>
+#include<queue>
+#include<stack>
+#include<fstream>
+using namespace std;
+const int maxn=10000;
+int X[4]={0,0,1,-1};
+int Y[4]={1,-1,0,0};
+bool vis[101][101][10001]={false};
+int maze[101][101]={};
+int n,m,t;
+bool test(int x,int y){
+	if(x<1 || x>n || y<1||y>m)
+		return false;
+	return true;
+}
+struct node{
+	int x, y,step;
+};
+int bfs(int n,int m){
+	queue<node> q;
+	node st;
+	st.x=1;
+	st.y=1;
+	st.step=0;
+	q.push(st);
+	while(!q.empty()){
+		node top=q.front();
+		q.pop();
+		if(top.x==n&& top.y==m)
+			return top.step;
+		for(int i=0;i<4;i++){
+			int nx=top.x+X[i];
+			int ny=top.y+Y[i];
+			int nstep=top.step+1;
+			if(test(nx,ny)){
+				node nt;
+				nt.x=nx;
+				nt.y=ny;
+				nt.step=nstep;
+				if(vis[nx][ny][nstep]==false){
+					vis[nx][ny][nstep]=true;
+						q.push(nt);
+				}
+			}
+		}
+	}
+	return -1;
+}
+
+int main(){
+#ifdef _DEBUG
+	ifstream cin("a.txt");
+#endif
+	cin>>n>>m>>t;
+	for(int i=0;i<t;i++){
+		int x,y,st,ed;
+		cin>>x>>y>>st>>ed;
+		for(int j=st;j<=ed;j++)
+			vis[x][y][j]=1;
+	}
+	cout<<bfs(n,m)<<endl;
+
+#ifdef _DEBUG
+	cin.close();
+#endif
+	return 0;
+}
