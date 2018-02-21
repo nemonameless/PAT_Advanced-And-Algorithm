@@ -54,9 +54,9 @@ http://codeup.cn/problemset.php
 ##### 4.4 贪心
 1033	To Fill or Not to Fill (25)               
 1037	Magic Coupon (25)                  
-1038	Recover the Smallest Number (30)                  
-1067	Sort with Swap(0,❤) (25)                                                          
-1070	Mooncake (25)                
+1038	Recover the Smallest Number (30)                        
+1067	Sort with Swap(0,※) (25)       
+1070	Mooncake (25)                  
 ##### 4.5 二分
 1010	Radix (25)    
 1044	Shopping in Mars (25)     
