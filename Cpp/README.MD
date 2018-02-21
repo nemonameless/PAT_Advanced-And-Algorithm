@@ -1,1 +1,1 @@
-Problem by ID
+Problems by Type
